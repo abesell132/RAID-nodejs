@@ -3,8 +3,8 @@ const chunkSubstr = require("./utils/chunkSubstr");
 const base64toBinary = require("./utils/base64toBinary");
 const binaryToBase64 = require("./utils/binaryToBase64");
 
-let filePath = "./zipfiles/advanced-custom-fields-pro.zip";
-let fileName = "advanced-custom-fields-pro";
+let filePath = "./zipfiles/particlesjs-master.zip";
+let fileName = "particlesjs-master";
 
 fs.readFile(filePath, {}, (err, data) => {
   if (err) throw err;
